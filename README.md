@@ -1,0 +1,1 @@
+# garden-essence-wp
