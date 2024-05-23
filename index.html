@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/logo.png" />
+  <title>Garden Essence</title>
+
+  <!-- Styles css -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/carousel-products.css">
+  <link rel="stylesheet" href="css/carousel-moments.css">
+  <link rel="stylesheet" href="css/carousel-sales.css">
+  <link rel="stylesheet" href="css/slidebar-lateral.css">
+
+  <!-- Box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Dancing+Script&family=Shadows+Into+Light&family=Zeyada&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Box Icon -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <!-- Navbar -->
+  <header class="header">
+    <div class="title-page">
+      <h1>Garden Essence</h1>
+    </div>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li>
+            <a href="#index">Inicio</a>
+          </li>
+          <li>
+            <a href="#products">Productos</a>
+          </li>
+          <li>
+            <a href="#fragances">Frangancias</a>
+          </li>
+          <li>
+            <a href="#moments">Momentos</a>
+          </li>
+          <li>
+            <a href="#customer">Clientes Satisfechos</a>
+          </li>
+          <li>
+            <a href="#contact">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu">
+      <label for="btn-menu">
+        <i class='bx bx-menu'></i>
+      </label>
+    </div>
+  </header>
+
+  <!-- Slide bar lateral -->
+  <input type="checkbox" id="btn-menu">
+  <div class="container-menu">
+    <div class="cont-menu">
+      <nav>
+        <ul>
+          <a href="#index">Inicio</a>
+          <a href="#products">Productos</a>
+          <a href="#fragances">Frangancias</a>
+          <a href="#moments">Momentos</a>
+          <a href="#customer">Clientes Satisfechos</a>
+          <a href="#contact">Contactanos</a>
+        </ul>
+      </nav>
+      <label for="">x</label>
+    </div>
+  </div>
+
+  <!-- Index Section -->
+  <div class="index" id="index">
+    <img src="images/home.jpg" alt="">
+  </div>
+
+  <!-- Products Section -->
+  <div class="products" id="products">
+    <h2 class="contain-title">Productos</h2>
+    <div class="contain-body">
+      <p>Descubre la magia de la iluminación con nuestra exquisita colección de velas. Sumérgete en un mundo de
+        fragancias
+        cautivadoras y diseños elegantes que transformarán cualquier espacio en un refugio de tranquilidad y belleza.
+        Enciende
+        la pasión por la vela y crea momentos inolvidables con nuestra selección de productos artesanales, perfectos
+        para
+        relajarte, decorar y regalar. Además, también ofrecemos velas decorativas y velas personalizadas ideales para
+        recordatorios especiales. Bienvenido a un viaje de luz y aroma que despertará tus sentidos.</p>
+      <div class="carousel-products">
+        <div class="carousel-list" id="carousel-list">
+
+          <button class="carousel-arrow carousel-prev" id="button-prev" data-button="button-prev"
+            onclick="app.processingButton(event)">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+              class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+              </path>
+            </svg>
+          </button>
+
+
+          <div class="carousel-track" id="track">
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image2.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image3.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image4.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image2.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image3.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image4.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image2.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image3.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image4.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image2.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image3.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="carousel">
+              <div>
+                <a href="/">
+                  <h4> <small>Imagen</small> Mas </h4>
+                  <picture>
+                    <img src="images/products/image4.jpg" alt="imagen">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="carousel-arrow carousel-next" id="button-next" data-button="button-next"
+            onclick="app.processingButton(event)">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+              class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Fragances Section -->
+  <div class="fragances" id="fragances">
+    <h2 class="contain-title">Fragancias</h2>
+    <div class="contain-body">
+
+      <div class="contain-img"><img src="images/image7.png" alt=""></div>
+      <div>
+        <p>Explora un mundo de aromas cautivadores con nuestra amplia gama de fragancias de velas. Desde las notas
+          suaves y
+          relajantes de lavanda hasta la calidez reconfortante del jazmín, pasando por la frescura revitalizante del
+          limón y la
+          sensualidad exótica del sándalo, tenemos un abanico de aromas que se adaptan a todos los gustos y ocasiones.
+          Cada vela
+          ha sido cuidadosamente elaborada para brindarte una experiencia olfativa única que transformará tu espacio en
+          un
+          santuario de fragancia y serenidad. Descubre la magia de cada aroma y sumérgete en un mundo de sensaciones
+          inolvidables.</p>
+        <ul>
+          <li>
+            <p> Sandalo </p>
+          </li>
+          <li>
+            <p> Vainilla </p>
+          </li>
+          <li>
+            <p> Rouge </p>
+          </li>
+          <li>
+            <p> Lavanda </p>
+          </li>
+          <li>
+            <p> Sky blue </p>
+          </li>
+          <li>
+            <p> Maracuyá </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Moments Section -->
+  <div class="moments" id="moments">
+    <h2 class="contain-title">Momentos</h2>
+    <div class="contain-body">
+      <p>Deja que nuestra colección de velas te guíe en un viaje de decoración exquisita. Nuestras imágenes de ambientes
+        decorados te inspirarán a transformar tu hogar en un oasis de elegancia y calidez. Desde mesas de cena
+        románticas
+        iluminadas por velas centelleantes hasta acogedores rincones de lectura adornados con velas perfumadas, nuestras
+        ideas
+        de decoración te ayudarán a crear espacios encantadores y acogedores. Enciende la chispa de tu creatividad y
+        descubre
+        cómo nuestras velas pueden realzar cualquier ambiente con su luz suave y fragancia cautivadora. ¡Bienvenido a un
+        mundo
+        de decoración con velas que despierta tus sentidos y llena tu hogar de belleza!</p>
+
+      <div class="carousel-moments">
+        <div class="container-slider">
+          <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+
+            <div class="cards">
+              <label class="card" for="item-1" id="selector-1">
+                <img src="images/moments/moments1.jpeg" alt="">
+              </label>
+              <label class="card" for="item-2" id="selector-2">
+                <img src="images/moments/moments2.jpg" alt="">
+              </label>
+              <label class="card" for="item-3" id="selector-3">
+                <img src="images/moments/moments3.jpeg" alt="">
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Satisfied Customer Section -->
+  <div class="satisfied-customers" id="customer">
+    <h2 class="contain-title">Clientes Satisfechos</h2>
+    <div class="contain-body">
+      <div>
+        <p>La satisfacción de nuestros clientes es la mayor recompensa para nosotros. Aquí te presentamos una galería de
+          fotografías de clientes felices que han incorporado nuestras velas en sus vidas. Desde momentos especiales
+          compartidos en familia hasta relajantes momentos de autocuidado, estas imágenes capturan la alegría y la
+          serenidad que nuestras velas brindan a sus hogares. Sus sonrisas y miradas de satisfacción son testimonio de
+          la magia que nuestras velas pueden aportar a tu vida diaria. Únete a la comunidad de clientes satisfechos y
+          descubre cómo nuestras velas pueden añadir belleza y calidez a tu vida.</p>
+        <div class="carousel-sales">
+          <div class="slide-container">
+            <span class="slider-span" id="slider-span1"></span>
+            <span class="slider-span" id="slider-span2"></span>
+            <span class="slider-span" id="slider-span3"></span>
+            <span class="slider-span" id="slider-span4"></span>
+            <span class="slider-span" id="slider-span5"></span>
+            <span class="slider-span" id="slider-span6"></span>
+            <span class="slider-span" id="slider-span7"></span>
+
+            <div class="image-slider">
+              <div class="slides-div" id="slide-1">
+                <img src="images/sales/image1.jpg" alt="" class="img" id="img1">
+                <a href="#slider-span1" class="button" id="button-1"></a>
+              </div>
+              <div class="slides-div" id="slide-2">
+                <img src="images/sales/image5.jpg" alt="" class="img" id="img2">
+                <a href="#slider-span2" class="button" id="button-2"></a>
+              </div>
+              <div class="slides-div" id="slide-3">
+                <img src="images/sales/image7.png" alt="" class="img" id="img3">
+                <a href="#slider-span3" class="button" id="button-3"></a>
+              </div>
+              <div class="slides-div" id="slide-4">
+                <img src="images/sales/image1.jpg" alt="" class="img" id="img4">
+                <a href="#slider-span4" class="button" id="button-4"></a>
+              </div>
+              <div class="slides-div" id="slide-5">
+                <img src="images/sales/image5.jpg" alt="" class="img" id="img5">
+                <a href="#slider-span5" class="button" id="button-5"></a>
+              </div>
+              <div class="slides-div" id="slide-6">
+                <img src="images/sales/image7.png" alt="" class="img" id="img6">
+                <a href="#slider-span6" class="button" id="button-6"></a>
+              </div>
+              <div class="slides-div" id="slide-7">
+                <img src="images/sales/image1.jpg" alt="" class="img" id="img7">
+                <a href="#slider-span7" class="button" id="button-7"></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <div class="about-we">
+      <h2>Sobre nosotros</h2>
+      <p>En Garden Essence, somos más que una tienda de velas. Somos apasionados artesanos de la luz y el aroma,
+        dedicados a crear experiencias excepcionales. Nuestra misión es ofrecer productos de alta calidad que inspiran
+        tranquilidad, elegancia y creatividad en la vida cotidiana. Desde velas perfumadas que llenan tu hogar de
+        fragancias cautivadoras hasta velas decorativas que añaden sofisticación a cualquier ambiente, estamos
+        comprometidos en
+        brindarte belleza y calidez. Únete a nosotros en este viaje de luz, aroma y encanto.</p>
+    </div>
+    <div></div>
+    <div class="contact-info">
+      <h2>Información de contacto</h2>
+      <p>
+        Escribenos a nuestro <a style="color: rgb(95, 86, 73);" href="https://wa.me/3152179077">chat de whatsapp</a>.
+        <br>
+        Correo electronico: elizalopera483@outlook.com
+        <br>
+        Nuestro numero de contacto: +57 3152179077
+        <br><br>
+        Santiago de Cali - Valle del Cauca
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>

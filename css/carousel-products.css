@@ -1,0 +1,133 @@
+.carousel-products {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+}
+
+.carousel-products h4,
+.carousel-products h2,
+.carousel-products small,
+.carousel-products a {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-products a {
+    text-decoration: none;
+}
+
+.carousel-products .carousel {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+@media (min-width:768px) {
+    .carousel-products .carousel {
+        margin: 0px 40px;
+    }
+
+    .carousel-products {
+        margin-top: 0 !important;
+        height: auto;
+    }
+}
+
+.carousel-products .carousel h2 {
+    font-size: 45px;
+    line-height: 38px;
+    padding-bottom: 50px;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.carousel-products .carousel-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 50px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.carousel-products .carousel-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.carousel-products .carousel {
+    position: relative;
+    width: 210px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.carousel-products .carousel h4 {
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    padding: 15px;
+}
+
+.carousel-products .carousel h4 small {
+    font-size: 15px;
+    display: block;
+}
+
+.carousel a img {
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: .3s ease-in-out;
+}
+
+@media(max-width: 768px) {
+    .carousel-products {
+        margin-top: 20px;
+    }
+}
+
+.carousel-arrow {
+    border-radius: 30px;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel-arrow:focus {
+    outline: 0;
+}
+
+.carousel-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-prev {
+    left: 0px;
+}
+
+.carousel-next {
+    right: 0px;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 75px 0 0 0;
+    zoom: 100%;
+    overflow-x: hidden !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden !important;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+}
+
+div[id] {
+    scroll-margin-top: 14vh;
+}
+
+p {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 20px;
+    margin: 0;
+}

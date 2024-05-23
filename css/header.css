@@ -1,0 +1,84 @@
+.header {
+    background-color: #efe2d9;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0% 5%;
+    top: 0;
+    width: 90%;
+    z-index: 999;
+    margin: 0;
+}
+
+.header .title-page {
+    width: 50%;
+}
+
+.header .title-page h1 {
+    font-family: 'Zeyada', cursive;
+    font-size: 40px;
+}
+
+.header .menu {
+    display: none;
+    text-align: center;
+}
+
+.header .menu i {
+    font-size: 30px;
+    margin-top: 70%;
+}
+
+.header .navbar {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header .navbar nav ul {
+    display: flex;
+    list-style: none;
+    text-align: end;
+    list-style: none;
+}
+
+.header .navbar nav li {
+    display: flex;
+    margin-right: 20px;
+    padding: 5px 20px;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 18px;
+}
+
+.header .navbar nav li:hover {
+    background-color: #e7d7ccc7;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    transition: all .4s;
+    -webkit-box-shadow: -1px 2px 16px -4px #8f7b6fc7;
+    -moz-box-shadow: -1px 2px 16px -4px #8f7b6fc7;
+    box-shadow: -1px 2px 16px -4px #8f7b6fc7;
+}
+
+@media (max-width: 1155px) {
+    .header .title-page h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 910px) {
+    .header .navbar {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+}

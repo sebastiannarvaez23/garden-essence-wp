@@ -1,0 +1,87 @@
+.contain-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    padding: 0 5%;
+    margin-top: 0;
+    padding-top: 5vh;
+}
+
+.contain-body {
+    height: 75vh;
+    padding: 0 8%;
+}
+
+.index {
+    margin: 0;
+}
+
+.index img {
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+    filter: brightness(0.6);
+    object-fit: contain;
+}
+
+
+.products .contain-body {
+    padding-top: 30px;
+}
+
+.products,
+.moments {
+    background-color: #f7f4f1;
+}
+
+.fragances .contain-body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.fragances .contain-body .contain-img {
+    text-align: center;
+}
+
+.fragances .contain-body .contain-img img {
+    width: 60%;
+    border-radius: 10%;
+}
+
+.fragances .contain-body img {
+    margin: 30px 0px;
+}
+
+@media(max-width: 910px) {
+
+    .contain-title {
+        margin-bottom: 15px;
+    }
+
+    .contain-body {
+        height: auto;
+    }
+
+    .contain-img {
+        text-align: center;
+    }
+
+    .products .contain-body {
+        padding-top: 10px;
+    }
+
+    .fragances .contain-body {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .fragances .contain-body .contain-img img {
+        width: 100%;
+        border-radius: 10%;
+    }
+
+    .satisfied-customers .contain-body {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+}

@@ -1,0 +1,21 @@
+.footer {
+    background-color: #decbbe;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    height: 40vh;
+    padding: 5% 10%;
+}
+
+.footer h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media(max-width: 910px) {
+    .footer {
+        height: auto;
+    }
+}
